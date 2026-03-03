@@ -54,7 +54,8 @@ Login → Load CSV → Iterate Records → Fill Form → Submit → Repeat Until
 ├── products.csv
 ├── requirements.txt
 └── tools/
-└── coordinate_finder.py
+└── coordinate_finder.py 
+```
 
 **main.py** – Core automation workflow  
 - **products.csv** – Structured input dataset  
@@ -87,6 +88,7 @@ Login → Load CSV → Iterate Records → Fill Form → Submit → Repeat Until
 ```bash
 pip install -r requirements.txt
 python main.py.   
+```
 
 Before execution, ensure:
 	•	Screen resolution matches configured coordinates
