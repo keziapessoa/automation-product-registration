@@ -38,3 +38,12 @@ Login → Read CSV → Loop through products → Completion
 ---
 
 ## 📂 Project Structure
+```
+.
+├── main.py # Main automation script (code in Portuguese)
+├── products.csv # CSV database
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+├── .gitignore # Files to ignore (cache, pyc, etc.)
+└── tools/
+└── coordinate_finder.py # Optional helper to detect mouse coordinates
