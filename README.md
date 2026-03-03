@@ -49,11 +49,14 @@ Login → Load CSV → Iterate Records → Fill Form → Submit → Repeat Until
 
 ## 📂 Project Structure
 ```
+automation-product-registration/
 ├── main.py
 ├── products.csv
 ├── requirements.txt
+├── README.md
+├── .gitignore
 └── tools/
-└── coordinate_finder.py 
+    └── coordinate_finder.py
 ```
 
 - **main.py** – Core automation workflow  
@@ -90,28 +93,28 @@ python main.py
 ```
 
 Before execution, ensure:
-	•	Screen resolution matches configured coordinates
-	•	Target system interface layout remains unchanged
-	•	CSV structure aligns with expected form fields
+- Screen resolution matches configured coordinates
+- Target system interface layout remains unchanged
+- CSV structure aligns with expected form fields
 
 ---
 
-🔎 Technical Considerations
+## 🔎 Technical Considerations
 
 Limitations:
-	•	Sensitive to UI layout changes
-	•	Dependent on screen resolution
-	•	No structured logging or retry mechanism
+- Sensitive to UI layout changes
+- Dependent on screen resolution
+- No structured logging or retry mechanism
 
 Improvement Opportunities:
-	•	Introduce modular/OOP structure
-	•	Add logging and exception handling
-	•	Implement validation and retry mechanisms
-	•	Migrate to browser automation frameworks
+- Introduce modular/OOP structure
+- Add logging and exception handling
+- Implement validation and retry mechanisms
+- Migrate to browser automation frameworks
 
 ---
 
-👩‍💻 Implementation Context
+## 👩‍💻 Implementation Context
 
 Developed as part of a practical online course focused on Python-based process automation.
 
