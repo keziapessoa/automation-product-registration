@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-Python-based automation script that replicates manual product registration in a web system through GUI interaction.
+Python automation script that simulates manual product registration in a web system by interacting with the graphical user interface (GUI). It reads product data from a CSV file and automatically fills out form fields using mouse and keyboard automation.
 
-The system reads structured data from a CSV file and programmatically performs browser navigation, authentication, and repetitive form submission using automated mouse and keyboard control.
+This project automates repetitive data entry tasks in a target interface, reducing manual effort and runtime required to register multiple products.
 
 ---
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 python main.py   
 ```
 
-Before execution, ensure:
+⚠️ Before running:
 - Screen resolution matches configured coordinates
 - Target system interface layout remains unchanged
 - CSV structure aligns with expected form fields
@@ -116,11 +116,7 @@ Improvement Opportunities:
 
 ## 👩‍💻 Implementation Context
 
-Developed as part of a practical online course focused on Python-based process automation.
-
-This repository represents the structured implementation of the proposed automation workflow for portfolio demonstration purposes.
-
-
+This repository implements a practical Python automation script as part of an online course exercise. It demonstrates how to automate repetitive tasks with GUI automation and structured data processing for portfolio purposes.
 
 
 
