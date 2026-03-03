@@ -49,7 +49,6 @@ Login → Load CSV → Iterate Records → Fill Form → Submit → Repeat Until
 
 ## 📂 Project Structure
 ```
-.
 ├── main.py
 ├── products.csv
 ├── requirements.txt
@@ -57,7 +56,7 @@ Login → Load CSV → Iterate Records → Fill Form → Submit → Repeat Until
 └── coordinate_finder.py 
 ```
 
-**main.py** – Core automation workflow  
+- **main.py** – Core automation workflow  
 - **products.csv** – Structured input dataset  
 - **coordinate_finder.py** – Utility for detecting screen coordinates  
 
@@ -87,7 +86,7 @@ Login → Load CSV → Iterate Records → Fill Form → Submit → Repeat Until
 
 ```bash
 pip install -r requirements.txt
-python main.py.   
+python main.py   
 ```
 
 Before execution, ensure:
@@ -95,7 +94,7 @@ Before execution, ensure:
 	•	Target system interface layout remains unchanged
 	•	CSV structure aligns with expected form fields
 
-⸻
+---
 
 🔎 Technical Considerations
 
@@ -110,7 +109,7 @@ Improvement Opportunities:
 	•	Implement validation and retry mechanisms
 	•	Migrate to browser automation frameworks
 
-⸻
+---
 
 👩‍💻 Implementation Context
 
